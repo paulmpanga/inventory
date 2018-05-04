@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_manage_transactions"
+            android:title="@string/manage_transactions" />
+        <item
+            android:id="@+id/nav_manage_items"
+            android:title="@string/manage_items" />
+        <item
+            android:id="@+id/nav_transactions_history"
+            android:title="@string/transaction_history" />
+        <item
+            android:id="@+id/nav_transfer_data"
+            android:title="@string/transfer_data" />
+        <item
+            android:id="@+id/nav_out_of-Stock"
+            android:title="@string/out_of_stock_items" />
+        <item
+            android:id="@+id/nav_help"
+            android:title="@string/help" />
+    </group>
+</menu>
